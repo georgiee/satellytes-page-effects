@@ -1,0 +1,26 @@
+{
+  "name": "@satellytes/effect-star-wars",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "Georgios Kaleadis",
+  "license": "ISC",
+  "main": "dist/main.js",
+  "devDependencies": {
+    "autoprefixer": "^9.2.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "declaration-bundler-webpack-plugin": "^1.0.3",
+    "webpack": "^4.21.0",
+    "webpack-cli": "^3.1.2"
+  },
+  "directories": {
+    "dist": "dist"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "webpack:watch": "webpack --watch",
+    "build": "webpack",
+    "dev": "tsc --watch"
+  }
+}

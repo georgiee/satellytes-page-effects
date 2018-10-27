@@ -1,0 +1,20 @@
+
+@keyframes testAnimation {
+  0% {
+    transform: perspective(0px) rotateX(0deg) translateY(0)
+  }
+
+  10% {
+    transform: perspective(1000px) rotateX(70deg) translateY(0)
+  }
+
+  100% {
+    transform: perspective(1000px) rotateX(70deg) translateY(-4000px)
+  }
+}
+
+
+.sy-effect-star-wars {
+	transform-origin: 50% 100px;
+  animation: testAnimation calc(1ms * var(--duration, 10000)) 1 linear backwards;
+}

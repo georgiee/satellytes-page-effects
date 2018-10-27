@@ -1,0 +1,19 @@
+{
+  "name": "@satellytes/effect-factory",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "Georgios Kaleadis",
+  "homepage": "",
+  "license": "ISC",
+  "main": "dist/effect-factory.js",
+  "directories": {
+    "dist": "dist"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  }
+}
