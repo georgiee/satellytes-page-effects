@@ -1,6 +1,6 @@
 {
   "name": "@satellytes/effect-svg-perlin-noise",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Georgios Kaleadis<georgios.kaleadis@satellytes.com>",
   "license": "ISC",
   "main": "dist/main.js",

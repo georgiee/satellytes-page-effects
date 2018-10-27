@@ -1,13 +1,13 @@
 {
   "name": "playground",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "license": "ISC",
   "main": "dist/playground.js",
   "dependencies": {
-    "@satellytes/effect-star-wars": "1.0.0",
-    "@satellytes/effect-svg-perlin-noise": "1.0.0",
-    "@satellytes/effect-factory": "1.0.0"
+    "@satellytes/effect-factory": "^1.0.1",
+    "@satellytes/effect-star-wars": "^1.0.1",
+    "@satellytes/effect-svg-perlin-noise": "^1.0.1"
   },
   "devDependencies": {
     "@types/webpack": "^4.4.17",
