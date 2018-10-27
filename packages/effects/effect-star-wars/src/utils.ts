@@ -41,7 +41,6 @@ function scrollTo(to, callback, {maxDuration = 500}) {
   // interpolate the actual duration depending of the scroll position
   // duration of 0 when at the top, 1 when at the bottom
   const duration = lerp(0, maxDuration, scrollRatio);
-  console.log('duration', {duration, scrollRatio});
 
   const start = position();
   const change = to - start;
@@ -51,7 +50,6 @@ function scrollTo(to, callback, {maxDuration = 500}) {
   const increment = 20;
 
   const cancel = () => {
-    console.log('stopping scrollto');
     cancelAnimationFrame(currentRAF);
   }
 

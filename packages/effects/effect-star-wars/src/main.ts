@@ -49,16 +49,13 @@ class StarWarsEffect {
 
 
 export function create(options) {
-  console.log('create star wars effect', options);
   const effect = new StarWarsEffect(options);
 
   function start() {
-    console.log('start effect');
     effect.start()
   }
 
   function stop() {
-    console.log('stop effect');
     effect.stop()
   }
 

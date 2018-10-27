@@ -13,7 +13,6 @@ export class Runner {
   }
 
   start() {
-    console.log('start')
     this._running = true;
     this._effect.start();
 
@@ -21,7 +20,6 @@ export class Runner {
   }
 
   stop() {
-    console.log('try stop', this._running)
     if(!this._running) {
       return;
     }
@@ -32,18 +30,15 @@ export class Runner {
   }
 
   run(Effect, options) {
-    console.log('try start', this._running)
     if(this._running) {
       this.stop();
     }
-    console.log('continue start', this._running)
 
     this._effect = Effect.create(options);
     this.start();
   }
 
   destroy() {
-    console.log('desotr')
     this.stop();
     this._effect = null;
   }

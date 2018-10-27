@@ -2,7 +2,6 @@ import { template } from "./template";
 
 
 export function create(options) {
-  console.log('create svg perlin noise effect');
   let svgElement;
 
   function start() {
@@ -14,8 +13,6 @@ export function create(options) {
   }
 
   function stop() {
-    console.log('stop perlin', svgElement);
-
     if(!svgElement) {
       return;
     }
