@@ -1,6 +1,7 @@
 {
   "lerna": "2.5.1",
+  "preid": "rc",
   "npmClient": "yarn",
   "useWorkspaces": true,
-  "version": "1.1.0-rc.0"
+  "version": "1.1.0"
 }
