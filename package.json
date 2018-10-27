@@ -4,6 +4,10 @@
     "packages/effects/*",
     "packages/*"
   ],
+  "scripts": {
+    "build": "yarn lerna run build",
+    "release": "yarn lerna publish"
+  },
   "devDependencies": {
     "@types/node": "^10.12.0",
     "@types/webpack": "^4.4.17",
