@@ -1,10 +1,14 @@
 {
   "name": "@satellytes/effect-star-wars",
   "version": "1.0.1",
-  "description": "> TODO: description",
-  "author": "Georgios Kaleadis",
+  "author": "Georgios Kaleadis<georgios.kaleadis@satellytes.com>",
+  "homepage": "http:/www.satellytes.com",
   "license": "ISC",
   "main": "dist/main.js",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/satellytes/satellytes-page-effects.git"
+  },
   "devDependencies": {
     "autoprefixer": "^9.2.1",
     "clean-webpack-plugin": "^0.1.19",

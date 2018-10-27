@@ -1,11 +1,14 @@
 {
   "name": "@satellytes/effect-factory",
   "version": "1.0.1",
-  "description": "> TODO: description",
-  "author": "Georgios Kaleadis",
-  "homepage": "",
+  "author": "Georgios Kaleadis<georgios.kaleadis@satellytes.com>",
+  "homepage": "http:/www.satellytes.com",
   "license": "ISC",
   "main": "dist/effect-factory.js",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/satellytes/satellytes-page-effects.git"
+  },
   "directories": {
     "dist": "dist"
   },
