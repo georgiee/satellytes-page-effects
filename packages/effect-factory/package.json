@@ -17,6 +17,9 @@
   ],
   "scripts": {
     "build": "tsc",
-    "dev": "tsc --watch"
+    "develop": "tsc --watch"
+  },
+  "dependencies": {
+    "rxjs": "^6.3.3"
   }
 }

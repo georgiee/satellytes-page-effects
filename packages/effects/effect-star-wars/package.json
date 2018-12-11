@@ -23,7 +23,7 @@
     "dist"
   ],
   "scripts": {
-    "webpack:watch": "webpack --watch",
+    "develop": "webpack --watch",
     "build": "webpack",
     "dev": "tsc --watch"
   }

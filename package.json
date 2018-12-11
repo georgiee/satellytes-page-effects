@@ -6,7 +6,10 @@
   ],
   "scripts": {
     "build": "yarn lerna run build",
-    "release": "yarn lerna publish"
+    "release": "yarn lerna publish",
+    "bootstrap": "lerna bootstrap",
+    "playground": "lerna run start --scope playground",
+    "develop": "lerna run develop"
   },
   "devDependencies": {
     "@types/node": "^10.12.0",
