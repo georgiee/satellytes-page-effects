@@ -6,3 +6,17 @@ Currently the following effects are included.
 
 + [Star Wars Effect](packages/effects/effect-star-wars)
 + [Turbulence with Perlin Noise (SVG + CSS filter)](packages/effect-svg-perlin-noise)
+
+## Develop
+Provide lerna globall.
+
+```
+npm install -g lerna
+```
+
+run bootstrap to install all dependencies and cross link all packages.
+
+```
+lerna bootstrap
+```
+
